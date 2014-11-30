@@ -1,0 +1,10 @@
+C:\Users\home1\Documents\Visual Studio 2013\Projects\DataAnalizer.git\trunk\ApplicationGUI\bin\Debug\ApplicationGUI.exe.config
+C:\Users\home1\Documents\Visual Studio 2013\Projects\DataAnalizer.git\trunk\ApplicationGUI\bin\Debug\ApplicationGUI.exe
+C:\Users\home1\Documents\Visual Studio 2013\Projects\DataAnalizer.git\trunk\ApplicationGUI\bin\Debug\ApplicationGUI.pdb
+C:\Users\home1\Documents\Visual Studio 2013\Projects\DataAnalizer.git\trunk\ApplicationGUI\obj\Debug\ApplicationGUI.csprojResolveAssemblyReference.cache
+C:\Users\home1\Documents\Visual Studio 2013\Projects\DataAnalizer.git\trunk\ApplicationGUI\obj\Debug\ApplicationGUI.MainForm.resources
+C:\Users\home1\Documents\Visual Studio 2013\Projects\DataAnalizer.git\trunk\ApplicationGUI\obj\Debug\ApplicationGUI.Properties.Resources.resources
+C:\Users\home1\Documents\Visual Studio 2013\Projects\DataAnalizer.git\trunk\ApplicationGUI\obj\Debug\ApplicationGUI.csproj.GenerateResource.Cache
+C:\Users\home1\Documents\Visual Studio 2013\Projects\DataAnalizer.git\trunk\ApplicationGUI\obj\Debug\ApplicationGUI.exe
+C:\Users\home1\Documents\Visual Studio 2013\Projects\DataAnalizer.git\trunk\ApplicationGUI\obj\Debug\ApplicationGUI.pdb
+C:\Users\home1\Documents\Visual Studio 2013\Projects\DataAnalizer.git\trunk\ApplicationGUI\bin\Debug\System.Windows.Forms.Ribbon35.dll
