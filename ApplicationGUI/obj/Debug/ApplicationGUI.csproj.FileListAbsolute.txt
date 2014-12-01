@@ -8,3 +8,22 @@ C:\Users\home1\Documents\Visual Studio 2013\Projects\DataAnalizer.git\trunk\Appl
 C:\Users\home1\Documents\Visual Studio 2013\Projects\DataAnalizer.git\trunk\ApplicationGUI\obj\Debug\ApplicationGUI.exe
 C:\Users\home1\Documents\Visual Studio 2013\Projects\DataAnalizer.git\trunk\ApplicationGUI\obj\Debug\ApplicationGUI.pdb
 C:\Users\home1\Documents\Visual Studio 2013\Projects\DataAnalizer.git\trunk\ApplicationGUI\bin\Debug\System.Windows.Forms.Ribbon35.dll
+E:\Projects\DataAnalizer.git\trunk\ApplicationGUI\bin\Debug\ApplicationGUI.exe.config
+E:\Projects\DataAnalizer.git\trunk\ApplicationGUI\obj\Debug\ApplicationGUI.exe
+E:\Projects\DataAnalizer.git\trunk\ApplicationGUI\obj\Debug\ApplicationGUI.pdb
+E:\Projects\DataAnalizer.git\trunk\ApplicationGUI\bin\Debug\ApplicationGUI.exe
+E:\Projects\DataAnalizer.git\trunk\ApplicationGUI\bin\Debug\ApplicationGUI.pdb
+E:\Projects\DataAnalizer.git\trunk\ApplicationGUI\obj\Debug\ApplicationGUI.csprojResolveAssemblyReference.cache
+E:\Projects\DataAnalizer.git\trunk\ApplicationGUI\obj\Debug\ApplicationGUI.MainForm.resources
+E:\Projects\DataAnalizer.git\trunk\ApplicationGUI\obj\Debug\ApplicationGUI.Properties.Resources.resources
+E:\Projects\DataAnalizer.git\trunk\ApplicationGUI\obj\Debug\ApplicationGUI.csproj.GenerateResource.Cache
+E:\Projects\DataAnalizer.git\trunk\ApplicationGUI\bin\Debug\en\ApplicationGUI.resources.dll
+E:\Projects\DataAnalizer.git\trunk\ApplicationGUI\bin\Debug\ru\ApplicationGUI.resources.dll
+E:\Projects\DataAnalizer.git\trunk\ApplicationGUI\obj\Debug\ApplicationGUI.MainForm.en.resources
+E:\Projects\DataAnalizer.git\trunk\ApplicationGUI\obj\Debug\ApplicationGUI.MainForm.ru.resources
+E:\Projects\DataAnalizer.git\trunk\ApplicationGUI\obj\Debug\en\ApplicationGUI.resources.dll
+E:\Projects\DataAnalizer.git\trunk\ApplicationGUI\obj\Debug\ru\ApplicationGUI.resources.dll
+E:\Projects\DataAnalizer.git\trunk\ApplicationGUI\bin\Debug\DataEngine.dll
+E:\Projects\DataAnalizer.git\trunk\ApplicationGUI\bin\Debug\DataEngine.pdb
+E:\Projects\DataAnalizer.git\trunk\ApplicationGUI\obj\Debug\ApplicationGUI.LoginForm.resources
+E:\Projects\DataAnalizer.git\trunk\ApplicationGUI\obj\Debug\ApplicationGUI.LoginForm.ru.resources

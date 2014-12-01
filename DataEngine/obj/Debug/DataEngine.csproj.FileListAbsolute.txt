@@ -1,0 +1,5 @@
+E:\Projects\DataAnalizer.git\trunk\DataEngine\obj\Debug\DataEngine.csprojResolveAssemblyReference.cache
+E:\Projects\DataAnalizer.git\trunk\DataEngine\bin\Debug\DataEngine.dll
+E:\Projects\DataAnalizer.git\trunk\DataEngine\bin\Debug\DataEngine.pdb
+E:\Projects\DataAnalizer.git\trunk\DataEngine\obj\Debug\DataEngine.dll
+E:\Projects\DataAnalizer.git\trunk\DataEngine\obj\Debug\DataEngine.pdb

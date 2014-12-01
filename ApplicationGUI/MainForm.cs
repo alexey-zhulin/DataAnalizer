@@ -8,11 +8,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DataEngine;
 
 namespace ApplicationGUI
 {
     public partial class MainForm : Form
     {
+        DBHandler dbHandler;
         public MainForm()
         {
             InitializeComponent();
@@ -37,6 +39,26 @@ namespace ApplicationGUI
                 Settings.Default.MainWindowSize = this.Size;
             }
             Settings.Default.Save();
+        }
+
+        private void connectToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LoginForm loginForm = new LoginForm();
+            loginForm.ShowDialog(this);
+            if (loginForm.DialogResult == DialogResult.OK)
+            {
+                StatusLabel.Text = "Connecting...";
+                Application.DoEvents();
+                Cursor.Current = Cursors.WaitCursor;
+                dbHandler = new DBHandler { ServerName = loginForm.ServerName, Database = loginForm.DataBase, UserName = loginForm.User, Pwd = loginForm.Password, DomainAuth = loginForm.DomainAuth };
+                bool connResult = dbHandler.Connect();
+                Cursor.Current = Cursors.Default;
+                StatusLabel.Text = "";
+                if (!connResult)
+                {
+                    MessageBox.Show(dbHandler.connectException.Message, "Ошибка подключения", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
         }
     }
 }
