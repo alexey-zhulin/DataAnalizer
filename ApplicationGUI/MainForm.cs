@@ -47,6 +47,10 @@ namespace ApplicationGUI
             loginForm.ShowDialog(this);
             if (loginForm.DialogResult == DialogResult.OK)
             {
+                if (dbHandler != null)
+                {
+                    dbHandler.CloseConnection();
+                }
                 StatusLabel.Text = "Connecting...";
                 Application.DoEvents();
                 Cursor.Current = Cursors.WaitCursor;
@@ -58,7 +62,19 @@ namespace ApplicationGUI
                 {
                     MessageBox.Show(dbHandler.connectException.Message, "Ошибка подключения", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
+                else
+                {
+                    Settings.Default.Server = loginForm.ServerName;
+                    Settings.Default.DataBase = loginForm.DataBase;
+                    Settings.Default.User = loginForm.User;
+                    Settings.Default.DomainAuth = loginForm.DomainAuth;
+                }
             }
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

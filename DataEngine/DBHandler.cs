@@ -45,6 +45,15 @@ namespace DataEngine
             }
             return true;
         }
+
+        public void CloseConnection()
+        {
+            if (connection.State == ConnectionState.Open)
+            {
+                connection.Close();
+            }
+        }
+
         public DBHandler()
         {
             connection = new SqlConnection();

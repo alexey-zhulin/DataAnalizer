@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ApplicationGUI.Properties;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -41,6 +42,14 @@ namespace ApplicationGUI
             User = textBoxUser.Text;
             Password = textBoxPassword.Text;
             DomainAuth = checkBoxDomainAuth.Checked;
+        }
+
+        private void LoginForm_Load(object sender, EventArgs e)
+        {
+            textBoxServer.Text = Settings.Default.Server;
+            textBoxBase.Text = Settings.Default.DataBase;
+            textBoxUser.Text = Settings.Default.User;
+            checkBoxDomainAuth.Checked = Settings.Default.DomainAuth;
         }
     }
 }
